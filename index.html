@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    * {
+      padding: 0%;
+      margin: 0%;
+      box-sizing: border-box;
+    }
+
+    img {
+      width: 230px;
+      border-radius: 10px;
+
+    }
+
+    .containor {
+      width: 250px;
+      background-color: white;
+      padding-top: 10px;
+      padding-bottom: 35px;
+      border: 1px transparent;
+      border-radius: 10px;
+      box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+
+    .t {
+      /* height: 110px; */
+      font-size: 13px;
+      font-weight: 600;
+      font-family: "Outfit", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      gap: 15px;
+      padding: 20px 20px 0px 20px;
+      line-height: 15px;
+    }
+
+    .t :nth-child(2) {
+      color: rgb(185, 181, 181);
+      font-size: smaller;
+    }
+
+    .main {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #D5E1EF;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="containor">
+      <img src="C:\Users\Hom e\Downloads\qr-code-component-main\qr-code-component-main\image-qr-code.png" alt="">
+      <div class="t">
+        <p><b>Improve your front-end <br> skills by building projects</b></p>
+
+        <p>Scan the QR code to visit Frontend
+          Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
